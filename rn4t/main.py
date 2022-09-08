@@ -1,4 +1,4 @@
-# Como a base de dados é muito extensa, tive que colocar um valor muito baixo para o NI, pois  estava causando overflow na função math do python
+# Como a base de dados é muito extensa, tive que colocar um valor muito baixo para o NI, pois 0.1 estava causando overflow na função math do python
 
 from perceptron import Perceptron
 from database import Database

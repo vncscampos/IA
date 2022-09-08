@@ -1,6 +1,6 @@
 from perceptron import Perceptron
 
-NI = 0.1
+NI = 0.3
 NUMIN = 2
 NUMOUT = 1
 
@@ -11,10 +11,10 @@ NUMOUT = 1
 # perceptron.learn(x, y, 10000)
 
 # # # # XOR
-# x = [[1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1]]
-# y = [[0, 1, 1, 0]]
-# perceptron = Perceptron(NUMIN, NUMOUT, NI)
-# perceptron.learn(x, y, 10000)
+x = [[1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1]]
+y = [[0, 1, 1, 0]]
+perceptron = Perceptron(NUMIN, NUMOUT, NI)
+perceptron.learn(x, y, 10000)
 
 # # # OR
 # x = [[1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1]]
